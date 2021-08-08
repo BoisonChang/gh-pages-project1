@@ -1,0 +1,15 @@
+.modal-content {
+    .card-edit-submit-button{
+      button,input{
+        padding: 8px 32px;
+        border: 1px solid $primary;
+        background: $white;
+        color: $primary;
+        border-radius: 2px;
+        &:hover{
+          color: $white;
+          background: $primary;
+        }
+      }
+    }
+  }

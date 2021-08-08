@@ -1,0 +1,126 @@
+.modal-content{
+    .card-edit-header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $white-secondary;
+        padding: 32px;
+        .card-edit-title{
+            font-size: $font-size-lg;
+            line-height: 33px;
+            color: $dark-secondary;
+        }
+    }
+    .modal-inner{
+        max-height: calc(100vh - 210px);
+        overflow-y: auto;
+        .card-edit-body{
+            padding: 0 32px;
+        }
+    }
+}
+
+.card-edit-content{
+    padding-bottom: 24px;
+    border-bottom: 1px solid $white-secondary;
+    .card-edit-content-title{
+        font-size: $font-size-md;
+        line-height: 33px;
+        color: $dark-secondary;
+        margin: 16px 0px;
+        white-space: nowrap;
+    }
+    .card-edit-warn{
+        display: flex;
+        .iconify{
+            margin-right: 9px;
+        }
+        p{
+            color: $danger;
+            line-height: 33px;
+        }
+      }
+    .card-edit-warn-button{
+        padding: 16px 122px;
+        width: 100%;
+        color: $danger;
+        border: 1px solid $danger;
+        border-radius: 2px;
+        &:hover{
+            color: $white;
+            background: $danger-hover;
+        }
+    }
+    label{
+        font-size: $font-size-sm;
+        line-height: 24px;
+        font-weight: 100; 
+    }
+    input[type=text], input[type=email]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        color: $dark;
+        display: inline-block;
+        border: 0px solid $bgColor;
+        border-radius: 4px;
+        box-sizing: border-box;
+        &::placeholder{
+            color: $dark-secondary;
+        }
+    }
+    .input-unverified{
+        border: 1px solid $dark-secondary !important;
+    }
+    select{
+        width: 100%;
+        padding: 16px;
+        margin: 8px 0;
+        color: $dark;
+        display: inline-block;
+        border: 1px solid $dark-secondary;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+} 
+
+.card-edit-content-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 19px;
+    .card-edit-content-header-status{
+        display: flex;
+        .icon-correct{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            border-radius: 50%;
+            color: $white;
+            background: $primary;
+            width: 25px;
+            height: 25px;
+        }
+    }
+}  
+
+.card-edit-mail-button{
+    padding: 16px 128px;
+    width: 100%;
+    color: $white-secondary;
+    border: 1px solid $white-secondary;
+    border-radius: 2px;
+}
+
+.card-edit-checkbox{
+    input[type=checkbox]{
+        margin-right: 8px;
+    }
+    label ~label {
+        margin-top: 16px;
+    }
+}
+
+
+
+  
+ 

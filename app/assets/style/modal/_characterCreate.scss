@@ -1,0 +1,29 @@
+
+
+.card-edit-warn-unverified{
+    color: $dark !important;
+    margin-bottom: 0;
+}
+
+.card-edit-mail-button-unverified{
+    padding: 16px 128px;
+    width: 100%;
+    color: $primary;
+    border: 1px solid $white-secondary;
+    border-radius: 2px;  
+    &:hover{
+        background: $primary-hover;
+        color: $white;
+    }
+}
+
+
+
+.default-option {
+    display: none;
+    color: gray;
+}
+select::-ms-value {
+    background: none;
+    color: #42413D;
+}

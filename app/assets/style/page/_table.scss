@@ -1,0 +1,54 @@
+.content {
+  color: $dark-secondary;
+  padding: 0 24px;
+  position: relative;
+  width: 100%;
+  .additem {
+    .material-icons {
+      margin-right: 4px;
+    }
+  }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    .header-icon {
+      color: $primary;
+      font-weight: bold;
+      font-size: $font-size-ssm;
+    }
+    th {
+      text-align: left;
+      font-weight: bold;
+      padding-bottom: 4px;
+      td {
+        align-items: center;
+        text-align: left;
+      }
+    } 
+    td:nth-child(5){
+      text-align: right;
+    }
+    a {
+      color: $dark;
+      &:hover{
+        color: $primary;
+      }
+    }
+  }
+  
+  tr:first-child {
+    border-bottom: 3px solid $dark;
+    &:not(:first-child):hover{
+      background: $bgColor;
+    }
+    td {
+      padding: 14px 0;
+      .material-icons{
+        margin-left: 25px;
+      }
+    }
+  }
+}

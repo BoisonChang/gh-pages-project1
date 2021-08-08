@@ -1,0 +1,40 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    .title {
+        display: flex;
+        align-items: center;  
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: $dark;
+            .material-icons {
+                color: $primary;
+            }
+            &:hover{
+                color: $primary;
+            }
+        }
+        .h2 {
+            font-size: $font-size-lg;
+            line-height: 33px;
+            margin-right: 24px;
+            margin-bottom: 0;
+        }
+    }
+    .tool {
+        .material-icons{
+            margin-left: 25px;
+        }
+        a {
+            color: $dark;
+            &:hover{
+                color: $primary;
+            }
+        } 
+    }
+}
+  
