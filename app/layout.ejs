@@ -5,22 +5,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+  <header class="sidebar">
+    <div class="sidebar-top">
+      <img
+        src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg"
+        alt="ANSWER">
+      <ul class="menu">
+        <li><a href="#">
+            <span class="material-icons">
+              insert_chart_outlined
+            </span>Dashboard</a>
+        </li>
+        <li><a href="#">
+            <span class="material-icons">
+              question_answer
+            </span>Question</a>
+        </li>
+        <li><a href="#">
+            <span class="material-icons">
+              assignment
+            </span>Assignment</a>
+        </li>
+        <li><a href="#">
+            <span class="material-icons">
+              video_library
+            </span>Course</a>
+        </li>
+        <li><a href="#">
+            <span class="material-icons">
+              people
+            </span>Admin</a>
+        </li>
+        <li><a href="#">
+            <span class="material-icons">
+              settings
+            </span>Settings</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar-bottom">
+      <img
+        src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjB8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        alt="">
+      <div class="info">
+        <p>Andy Chen</p>
+        <p>andy0401@mail.com</p>
+      </div>
+    </div>
   </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
